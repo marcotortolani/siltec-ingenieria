@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siltec Ingeniería.</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- <a href="http://www.siltec.com"><img src="/imgs/Logo_Siltec_v1.0.jpg" alt="Logo Siltec Ingeniería"></a> -->
+        <a href="/index.html"><img src="/imgs/Logo_Siltec_v1.0.jpg" alt="Logo Siltec Ingeniería"></a>
+
+        <form class="form-contact es" action="https://formsubmit.co/info@siltecingenieria" method="POST">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/contact.html">
+            <input type="hidden" name="_captcha" value="false">
+            <label>
+                <input type="text" name="name" placeholder="Nombre y Apellido">
+                <div></div>
+            </label>
+
+            <label>
+                <input type="email" name="email" placeholder="direccion@correo.com">
+                <div></div>
+            </label>
+        
+            <label>
+                <input type="text" name="subject" placeholder="Asunto">
+                <div></div>
+            </label>
+        
+            <label>
+                <textarea name="text-area"  minlength="10" maxlength="500" cols="30" rows="10" placeholder="Escriba su mensaje..." required></textarea>
+                <div></div>
+            </label>
+
+            <input class="submit" type="submit" value="Enviar">
+        </form>
+    </div>
+
+    
+
+    <script src="/script.js"></script>
+
+</body>
+</html>
+
+
